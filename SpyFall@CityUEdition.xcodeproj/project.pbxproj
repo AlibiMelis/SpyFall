@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414F75C0242E1E1E00855F1D /* myButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414F75BF242E1E1E00855F1D /* myButton.swift */; };
 		41AE3600242D7B1D00FAFD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE35FF242D7B1D00FAFD9D /* AppDelegate.swift */; };
 		41AE3602242D7B1D00FAFD9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3601242D7B1D00FAFD9D /* SceneDelegate.swift */; };
-		41AE3604242D7B1D00FAFD9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3603242D7B1D00FAFD9D /* ViewController.swift */; };
 		41AE3607242D7B1D00FAFD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AE3605242D7B1D00FAFD9D /* Main.storyboard */; };
-		41AE3609242D7B2400FAFD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AE3608242D7B2400FAFD9D /* Assets.xcassets */; };
 		41AE360C242D7B2400FAFD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AE360A242D7B2400FAFD9D /* LaunchScreen.storyboard */; };
 		41AE3617242D7B2400FAFD9D /* SpyFall_CityUEditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3616242D7B2400FAFD9D /* SpyFall_CityUEditionTests.swift */; };
 		41AE3622242D7B2400FAFD9D /* SpyFall_CityUEditionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3621242D7B2400FAFD9D /* SpyFall_CityUEditionUITests.swift */; };
+		41AE3634242D7BAE00FAFD9D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3633242D7BAE00FAFD9D /* MainViewController.swift */; };
+		41AE3636242D803D00FAFD9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3635242D803D00FAFD9D /* GameViewController.swift */; };
+		41AE3638242D879500FAFD9D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3637242D879500FAFD9D /* SettingsViewController.swift */; };
+		41AE363A242D9A6000FAFD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AE3639242D9A6000FAFD9D /* Assets.xcassets */; };
+		41AE363C242DA8CC00FAFD9D /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE363B242DA8CC00FAFD9D /* Games.swift */; };
+		41AE363F242DB33C00FAFD9D /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE363E242DB33C00FAFD9D /* DB.swift */; };
+		41AE3641242DBA8900FAFD9D /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3640242DBA8900FAFD9D /* Players.swift */; };
+		41AE3643242DC5E200FAFD9D /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE3642242DC5E200FAFD9D /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		414F75BF242E1E1E00855F1D /* myButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myButton.swift; sourceTree = "<group>"; };
 		41AE35FC242D7B1D00FAFD9D /* SpyFall@CityUEdition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpyFall@CityUEdition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AE35FF242D7B1D00FAFD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41AE3601242D7B1D00FAFD9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41AE3603242D7B1D00FAFD9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41AE3606242D7B1D00FAFD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41AE3608242D7B2400FAFD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41AE360B242D7B2400FAFD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41AE360D242D7B2400FAFD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41AE3612242D7B2400FAFD9D /* SpyFall@CityUEditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpyFall@CityUEditionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,14 @@
 		41AE361D242D7B2400FAFD9D /* SpyFall@CityUEditionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpyFall@CityUEditionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AE3621242D7B2400FAFD9D /* SpyFall_CityUEditionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyFall_CityUEditionUITests.swift; sourceTree = "<group>"; };
 		41AE3623242D7B2400FAFD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AE3633242D7BAE00FAFD9D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41AE3635242D803D00FAFD9D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		41AE3637242D879500FAFD9D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		41AE3639242D9A6000FAFD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AE363B242DA8CC00FAFD9D /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		41AE363E242DB33C00FAFD9D /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		41AE3640242DBA8900FAFD9D /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		41AE3642242DC5E200FAFD9D /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,12 @@
 		41AE35FE242D7B1D00FAFD9D /* SpyFall@CityUEdition */ = {
 			isa = PBXGroup;
 			children = (
-				41AE35FF242D7B1D00FAFD9D /* AppDelegate.swift */,
-				41AE3601242D7B1D00FAFD9D /* SceneDelegate.swift */,
-				41AE3603242D7B1D00FAFD9D /* ViewController.swift */,
+				41AE363D242DB32A00FAFD9D /* Constants */,
+				41AE362F242D7B3E00FAFD9D /* Model */,
+				41AE3630242D7B4600FAFD9D /* View */,
+				41AE3631242D7B4F00FAFD9D /* Controller */,
 				41AE3605242D7B1D00FAFD9D /* Main.storyboard */,
-				41AE3608242D7B2400FAFD9D /* Assets.xcassets */,
-				41AE360A242D7B2400FAFD9D /* LaunchScreen.storyboard */,
-				41AE360D242D7B2400FAFD9D /* Info.plist */,
+				41AE3632242D7B7C00FAFD9D /* Utilities */,
 			);
 			path = "SpyFall@CityUEdition";
 			sourceTree = "<group>";
@@ -126,6 +139,54 @@
 				41AE3623242D7B2400FAFD9D /* Info.plist */,
 			);
 			path = "SpyFall@CityUEditionUITests";
+			sourceTree = "<group>";
+		};
+		41AE362F242D7B3E00FAFD9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41AE363B242DA8CC00FAFD9D /* Games.swift */,
+				41AE3640242DBA8900FAFD9D /* Players.swift */,
+				41AE3642242DC5E200FAFD9D /* Locations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41AE3630242D7B4600FAFD9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				414F75BF242E1E1E00855F1D /* myButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41AE3631242D7B4F00FAFD9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41AE3633242D7BAE00FAFD9D /* MainViewController.swift */,
+				41AE3637242D879500FAFD9D /* SettingsViewController.swift */,
+				41AE3635242D803D00FAFD9D /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41AE3632242D7B7C00FAFD9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				41AE3639242D9A6000FAFD9D /* Assets.xcassets */,
+				41AE35FF242D7B1D00FAFD9D /* AppDelegate.swift */,
+				41AE3601242D7B1D00FAFD9D /* SceneDelegate.swift */,
+				41AE360D242D7B2400FAFD9D /* Info.plist */,
+				41AE360A242D7B2400FAFD9D /* LaunchScreen.storyboard */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		41AE363D242DB32A00FAFD9D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				41AE363E242DB33C00FAFD9D /* DB.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41AE360C242D7B2400FAFD9D /* LaunchScreen.storyboard in Resources */,
-				41AE3609242D7B2400FAFD9D /* Assets.xcassets in Resources */,
+				41AE363A242D9A6000FAFD9D /* Assets.xcassets in Resources */,
 				41AE3607242D7B1D00FAFD9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41AE3604242D7B1D00FAFD9D /* ViewController.swift in Sources */,
+				41AE3643242DC5E200FAFD9D /* Locations.swift in Sources */,
+				41AE363C242DA8CC00FAFD9D /* Games.swift in Sources */,
+				41AE3636242D803D00FAFD9D /* GameViewController.swift in Sources */,
+				41AE3634242D7BAE00FAFD9D /* MainViewController.swift in Sources */,
+				41AE363F242DB33C00FAFD9D /* DB.swift in Sources */,
 				41AE3600242D7B1D00FAFD9D /* AppDelegate.swift in Sources */,
+				41AE3641242DBA8900FAFD9D /* Players.swift in Sources */,
+				414F75C0242E1E1E00855F1D /* myButton.swift in Sources */,
+				41AE3638242D879500FAFD9D /* SettingsViewController.swift in Sources */,
 				41AE3602242D7B1D00FAFD9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36QR85GP77;
-				INFOPLIST_FILE = "SpyFall@CityUEdition/Info.plist";
+				INFOPLIST_FILE = "SpyFall@CityUEdition/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +522,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36QR85GP77;
-				INFOPLIST_FILE = "SpyFall@CityUEdition/Info.plist";
+				INFOPLIST_FILE = "SpyFall@CityUEdition/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
